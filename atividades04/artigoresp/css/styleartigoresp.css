@@ -1,0 +1,142 @@
+body{
+    font-family: 'Open Sans', 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+nav{
+    font-family: 'Lato', sans-serif;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+ul{
+    list-style-type: none;
+    display: inline-flex;
+    padding: 0;
+    margin: 0;
+}
+
+.logo{
+    display: inline-flex;
+    text-transform: lowercase;
+    font-size: 20px;
+    padding-left: 10%;
+    padding-right: 23%; 
+    width: 200px;
+    margin: 3%;
+}
+
+.logo a{
+    text-decoration: none;
+}
+
+.sobre{
+    display: inline-block;
+    text-decoration: none; 
+    padding: 5px;
+    width: 150px;
+    margin:10%;
+}
+
+.conteudo{
+    display: inline-block;
+    text-decoration: none; 
+    padding: 5px;
+    width: 150px;
+    margin:10%;
+}
+
+.contato{
+    display: inline-block;
+    text-decoration: none; 
+    padding: 5px;
+    width: 150px;
+    margin:10%;
+}
+
+hr{
+    width: 100%;
+}
+
+h5{
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 15px;
+    margin-top: 25px;
+}
+
+.autora{
+    display: inline-flex;
+    border-style: solid;
+    border-color: lightgray;
+    border-width: 1px;
+    vertical-align: top;
+    margin-top: 30px;
+    text-align: center;
+    width: 205px;
+    height: 303px;
+    margin-right: 2%;
+    margin-left: 20%;   
+}
+main{
+    text-align: justify;
+    display: inline-flex;
+    width: 669px;
+    height: 265px;
+    align-content: left;
+    margin-bottom: 10%;
+}
+
+footer{
+    text-align: center;
+    background-color: black;
+    color: white;
+    margin: 30px;
+}
+
+@media (max-width: 420px){
+    body{
+        font-family: 'Open Sans', 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    }
+    
+    nav{
+        font-family: 'Lato', sans-serif;
+        text-transform: uppercase;
+        text-decoration: none;
+    }
+
+    .logo{
+        display: inline-flex;
+        align-self: center;
+    }
+  
+    hr{
+        width: 840px;
+    }
+    
+    h5{
+        text-transform: uppercase;
+        align-self: auto;
+        font-size: 15px;
+        margin-top: 25px;
+    }
+
+    .autora{
+        display: inline-flex;
+        border-style: solid;
+        border-color: lightgray;
+        border-width: 1px;
+        flex-flow: column;
+    }
+    main{
+        display: inline-flex;
+        flex-flow: column nowrap;
+        width: 410px;
+    }
+    
+    footer{
+        text-align: center;
+        background-color: black;
+        color: white;
+        margin: 30px;
+    }
+}
