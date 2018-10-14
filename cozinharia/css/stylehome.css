@@ -1,0 +1,173 @@
+body{
+    font-family: 'Lato', 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; 
+    width: 100%;
+}
+
+nav{
+    display: inline-flex;
+    
+}
+
+.logo{
+    margin-left: 5%;
+    padding-right: 49%;
+}
+
+ul{
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-content: center;
+    align-items: center;
+}
+
+a{
+    text-decoration: none;
+}
+
+
+/**
+.home{
+    text-decoration: none;
+}
+
+.sobre{
+    text-decoration: none;
+    padding-left: 30px;   
+}
+
+.cardapio{
+    text-decoration: none;
+    padding-left: 30px;
+}
+
+.eventos{
+    text-decoration: none;
+    padding-left: 30px;
+}
+
+.contato{
+    text-decoration: none;
+    padding-left: 30px;
+}**/
+
+.info{
+    margin-left: 5%;
+    text-decoration: none;
+    font-size: larger;
+    margin-top: -35%;
+    margin-bottom: 25%;
+    color: #141F45
+}
+
+h1{
+    font-size: 34px;
+}
+
+.end{
+    margin-bottom: 5px;
+    font-size: smaller;
+}
+
+.tel{
+    margin-top: 0px;
+    font-size: smaller;
+}
+
+.button input{
+    background-color: transparent;
+    color: #141F45; 
+    border: solid;
+    border-color: #141F45;
+    border-width: 2px;
+    padding: 15px;
+    height: 55px;
+    text-transform: uppercase;
+    text-align: center;
+    font-weight: bolder;
+}
+
+h2{
+    font-size: 36px;
+    color:#141F45;
+}
+
+hr{
+    background-color: #F0DB48;
+    border: none;
+    width: 100px;
+    height: 3px;
+    margin: 0;
+    text-decoration: none;
+}
+
+.cozinharia{
+    width: 100%;
+    display: inline-flex;
+}
+
+.conteudo{
+    width: 40%;
+    margin-left: 5%;
+    padding-top: 2%;
+    padding-right: 13%;
+    padding-bottom: 2%
+}
+
+.yellow input{
+    background-color: #F0DB48;
+    color: #141F45; 
+    padding: 15px;
+    height: 55px;
+    text-transform: uppercase;
+    text-align: center;
+    font-weight: bolder;
+}
+
+.cardapio{
+    width: 100%;
+    display: inline-flex;
+}
+
+.image{
+    display: inline-flex;   
+}
+
+.eventos{
+    width: 100%;
+    display: inline-flex;    
+}
+
+.imageD{
+    margin-right: 5%;
+}
+.conteudoD{
+    width: 40%;
+    margin-left: 5%;
+    padding-top: 2%;
+    padding-right: 13%;
+    padding-bottom: 2%
+
+}
+
+footer{
+    width: 100%;
+    display: inline-flex;
+    background-color: #F0DB48;
+    color: #141F45;
+    margin-top: 5%;
+}
+
+.footerA{
+    margin-left: 5%;
+    padding-top: 2%;
+    padding-right: 10%;
+    padding-bottom: 2%
+}
+
+.footerB{ 
+    margin-left: 5%;
+    padding-top: 2%;   
+    padding-bottom: 2%; 
+}

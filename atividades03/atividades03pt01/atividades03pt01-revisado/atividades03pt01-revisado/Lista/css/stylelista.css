@@ -1,0 +1,26 @@
+body{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+ol{
+    list-style-type: lower-alpha;
+}
+.melhor{
+    text-align: justify;
+}
+
+ul{
+    list-style-type: circle;
+}
+.pior{
+    text-align: justify;
+}
+
+/* Você criou duas classes (.melhor e .pior) com a mesma propriedade.
+Nosso objetivo como programadores é sempre tentar reaproveitar o código. Então nesse caso você pode fazer assim:
+Criar uma classe com um nome mais genérico e aplicar aonde for necessário no html.
+
+.lista-series {
+   text-align: justify;
+}
+ */
