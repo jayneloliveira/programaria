@@ -1,0 +1,15 @@
+body{
+    background-color: #3498db;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 13px;
+}
+h1 {
+    color: white; /* Você pode usar esse valor em hexadecimal também, como você fez no elemento acima: #fff */
+    text-transform: uppercase;
+}
+/* Se você quiser mudar a cor do link, pode fazer assim: */
+a {
+  color: #fff;
+  text-decoration: none; /*  Caso você queira remover aquela linha embaixo do link */
+}

@@ -1,0 +1,30 @@
+body {
+    font-family: 'Lato', Arial, Helvetica, sans-serif;
+}
+
+img{
+    /*display: block;*/
+    /*margin: 0 auto;*/
+    margin-right: 40px; /* Comentei os estilos acima e adicionei esse */
+}
+
+div {
+    display: inline-block;
+    width: 49%;
+}
+
+h1 {
+    text-align: center
+}
+
+p {
+    text-align: center
+}
+
+h2 {
+    text-transform: uppercase
+}
+
+.imagem-receita {
+  text-align: right;
+}

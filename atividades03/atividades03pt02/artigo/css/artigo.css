@@ -77,6 +77,14 @@ h5{
     margin-right: 2%;
     margin-left: 20%;   
 }
+
+.jayne{
+    border-radius: 50%;
+    border-radius: 50%;
+    width: 65%;
+    margin-top: 30px;
+}
+
 main{
     text-align: justify;
     display: inline-block;
